@@ -4,7 +4,7 @@
   align-content: center;
   width: 77px;
   height: 62px;
-  margin: 32px;
+  margin: 17px;
   color: #FFFFFF;
   font-size: 45px;
   font-weight: bold;
@@ -12,10 +12,68 @@
 }
 
 .keys__background {
-  display: flex;
   width: 408px;
   height: 460px;
   background-color: #100F0F;
+}
+
+.keys__first {
+  display: flex;
+  justify-content: center;
+}
+
+.keys__second {
+  display: flex;
+  justify-content: center;
+}
+
+.keys__third {
+  display: flex;
+  justify-content: center;
+}
+
+.keys__fourth {
+  display: flex;
+  justify-content: center;
+}
+
+.keys__commands {
+  display: flex;
+  justify-content: center;
+  align-content: end;
+}
+
+.first__command {
+  width: 111px;
+  height: 62px;
+}
+
+.btn__white {
+  background-color: #FFFFFF;
+}
+
+.btn__orange {
+  background-color: #E28743;
+}
+
+.btn__green {
+  width: 111px;
+  height: 83px;
+  background-color: #228B22;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 1230px;
+  height: 601px;
+  background-color: #C6D1EC;
+}
+
+.screen {
+  width: 600px;
+  height: 448px;
+  background-color: #E2F1FE;
 }
 
 /*# sourceMappingURL=styles.css.map */
